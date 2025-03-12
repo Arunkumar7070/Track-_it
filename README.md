@@ -16,28 +16,44 @@ UI Components: Shadcn UI
 
 Features
 
-✅ User Authentication – Secure login and user management with Clerk.
-✅ Project & Sprint Management – Organize projects and track sprints.
-✅ Issue Tracking – Create, assign, and prioritize issues with ease.
-✅ Database Integration – Powered by PostgreSQL with Prisma ORM.
-✅ Modern UI – Beautiful, responsive design with Tailwind CSS & Shadcn UI.
+✅ User Authentication – Secure login and user management with Clerk.<br>
+
+✅ Project & Sprint Management – Organize projects and track sprints.<br>
+
+✅ Issue Tracking – Create, assign, and prioritize issues with ease.<br>
+
+✅ Database Integration – Powered by PostgreSQL with Prisma ORM.<br>
+
+✅ Modern UI – Beautiful, responsive design with Tailwind CSS & Shadcn UI.<br>
+
 
 Environment Variables
 
 Make sure to create a .env file with the following variables:
 
 DATABASE_URL=
+<br>
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+<br>
+
 CLERK_SECRET_KEY=
+<br>
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+<br>
+
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+<br>
+
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+<br>
+
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+<br>
 
 How to Run
 
-git clone
-cd my-app
+
 npm install
 npx prisma migrate deploy
 npm run dev
